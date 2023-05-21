@@ -13,11 +13,11 @@ body {
   }
   
   h1 {
-    color:blue 
+    color:rgb(235, 221, 25) 
   
   }
   h2{
-    color: rgb(12, 15, 226);
+    color: rgb(241, 228, 42);
     font-size: small;
   }
   
@@ -33,19 +33,26 @@ body {
 
   }
   
+  input#answer{
+    color: rgb(22, 22, 3);
+    font-size:medium;
+    font-weight: bold;
+  }
+  
   
   input {
     background-color:aqua;
     color:black;
     margin-top: 5px;
-    padding: 10px;
+    padding: 20px;
   }
+  
   
   button {
     background-color: aqua;
     color: black;
     margin-top: 5px;
-    padding: 10px 10px;
+    padding: 20px 10px;
     
   }
 
