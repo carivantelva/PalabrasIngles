@@ -236,7 +236,7 @@ var verbs = [
       answerElement.value = "";
       resultElement.textContent = "";
       startGame();
-    }, 2000);
+    }, 3000);
   }
   
   // Inicia el juego al cargar la página
