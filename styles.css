@@ -8,13 +8,15 @@ body {
   text-align: center;
   font-family: Arial, sans-serif;
   height: 100vh;
+  width: 100%;
 
 }
 
 container {
+  
   display: grid;
   justify-content: center;
-  justify-content: center;
+  
   border-color: #140101;
   background-color: rgba(1, 56, 56, 0.288);
 }
@@ -74,14 +76,20 @@ button {
 
 }
 
-/* Media Queries */
 
-/* For screens smaller than 768px */
-@media (max-width: 48px) {
+@media (max-width: 601px) {
 
- 
+  container  {
 
+    width: 80%;
+    height: 50%;
+    margin: auto;
+    
 
-   
-   
+    background-color: lightgreen;
+  }
+
+  h2{
+    color: aliceblue;
+  }
 }
