@@ -82,14 +82,20 @@ button {
   container  {
 
     width: 80%;
-    height: 50%;
+    height: 60%;
     margin: auto;
     
 
     background-color: lightgreen;
   }
+  h1{
+    font-size: medium;
+  }
 
   h2{
     color: aliceblue;
+  }
+  p{
+    font-size: 30;
   }
 }
