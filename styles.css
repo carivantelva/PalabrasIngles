@@ -1,83 +1,87 @@
-
-*{
+* {
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
-    background:linear-gradient(#474545, #edf3ed);
-    text-align: center;
-    font-family: Arial, sans-serif;
-    height: 100vh;
-    
-  }
+  background: linear-gradient(#474545, #edf3ed);
+  text-align: center;
+  font-family: Arial, sans-serif;
+  height: 100vh;
 
-  container{
-    display: grid ;
-    justify-content: center;
-    justify-content: center;
-    border-color: #140101;
-    background-color: rgba(1, 56, 56, 0.288);
-  }
-  
-  h1 {
-    color:rgb(239, 239, 247)    
-  
-  }
-  h2{
-    color:indigo;
-    font-size: small;
-    
-  }
-  
-  p {
-    color:#edf3ed;
-    font-size: 40px;
-    font-weight: bold;
-    
-  }
+}
 
-  p#result{
-    color:yellow;
-    font-size: 20px;
+container {
+  display: grid;
+  justify-content: center;
+  justify-content: center;
+  border-color: #140101;
+  background-color: rgba(1, 56, 56, 0.288);
+}
 
-  }
-  
-  input#answer{
-    color: rgb(22, 22, 3);
-    font-size:medium;
-    font-weight: bold;
-  }
-  
-  
-  input {
-    background-color:rgb(5, 233, 202);
-    color:black;
-    margin-top: 2px;
-    padding: 20px;
-    border-radius: 5%;
-    border: solid;
-    border-color: rgb(37, 34, 34);
-  }
-  
-  
-  button {
-    background-color:rgb(72, 194, 224);
-    color:#140101;
-    margin-top: 5px;
-    padding: 20px 5px;
-    border-radius: 10%;
-    width: 90px;
-   justify-self: center;
-    border: solid;
-    border-color: rgb(123, 95, 160);
-    font-weight: bolder;
+h1 {
+  color: rgb(239, 239, 247)
+}
 
-    
+h2 {
+  color: indigo;
+  font-size: small;
 
-    
+}
 
-  }
+p {
+  color: #edf3ed;
+  font-size: 40px;
+  font-weight: bold;
 
-  
-  
+}
+
+p#result {
+  color: yellow;
+  font-size: 20px;
+
+}
+
+input#answer {
+  color: rgb(22, 22, 3);
+  font-size: medium;
+  font-weight: bold;
+}
+
+
+input {
+  background-color: rgb(5, 233, 202);
+  color: black;
+  margin-top: 2px;
+  padding: 20px;
+  border-radius: 5%;
+  border: solid;
+  border-color: rgb(37, 34, 34);
+}
+
+
+button {
+  background-color: rgb(72, 194, 224);
+  color: #140101;
+  margin-top: 5px;
+  padding: 20px 5px;
+  border-radius: 10%;
+  width: 90px;
+  justify-self: center;
+  border: solid;
+  border-color: rgb(123, 95, 160);
+  font-weight: bolder;
+
+}
+
+/* Media Queries */
+
+/* For screens smaller than 768px */
+@media (max-width: 48px) {
+
+ 
+
+
+   
+   
+}
