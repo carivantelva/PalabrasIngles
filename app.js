@@ -3,7 +3,11 @@
   var questionElement = document.getElementById("question");
   var answerElement = document.getElementById("answer");
   var resultElement = document.getElementById("result");
+
   
+
+  //var pruebaElement = document.getElementById("prueba");
+  var correctaElement = document.getElementById("correcta");
   // Verbo actual
   var currentVerb;
   
@@ -23,17 +27,35 @@
   function checkAnswer() {
     var userAnswer = answerElement.value.toLowerCase();
     var correctAnswer = currentVerb.spanish.toLowerCase();
+    console.log(userAnswer);
+
+    let contador = 0;
+    console.log(contador);
+
+    
+    
   
     if (userAnswer === correctAnswer) {
       resultElement.textContent = "¡Correcto!";
+      //pruebaElement.textContent = "pruebita";
+      
     } else {
-      resultElement.textContent = "Incorrecto. La respuesta correcta es:   " + correctAnswer + " ";
+      resultElement.textContent = "Incorrecto. La respuesta correcta es:"  ;
+      correctaElement.textContent =  correctAnswer;
+      contador++;
+      console.log(contador);
+
     }
+
+
   
     // Reinicia el juego después de 2 segundos
     setTimeout(function() {
       answerElement.value = "";
       resultElement.textContent = "";
+      //pruebaElement.textContent = " ";
+      correctaElement.textContent = " ";
+
       startGame();
     }, 3000);
   }

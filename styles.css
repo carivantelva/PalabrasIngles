@@ -39,9 +39,15 @@ p {
 }
 
 p#result {
-  color:black;
+  color:rgb(243, 239, 6);
   font-size: 20px;
 
+}
+
+p#correcta{
+  color: rgb(33, 10, 241);
+  margin-top: 1px;
+  margin-bottom: 1px;
 }
 
 input#answer {
@@ -89,6 +95,15 @@ button {
 
   h1{
     font-size: medium;
+    margin: 1%;  
+    padding: 0%;
+  }
+
+  input#answer {
+    padding: 5%;
+    color: rgb(22, 22, 3);
+    font-size: medium;
+    font-weight: bold;
   }
 
   h2{
@@ -96,13 +111,21 @@ button {
   }
   p{
     font-size: 30px;  
-    margin: 2%;  
+    margin: 0%;  
+    padding: 0%;
   }
 
   p#result {
     color: #edf3ed;
     font-size: 90%;
   
+  }
+
+  p#correcta{
+    color: rgb(33, 10, 241);
+    margin-top: 1px;
+    margin-bottom: 1px;
+    font-size:x-large;
   }
 
   
