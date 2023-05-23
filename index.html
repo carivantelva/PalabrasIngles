@@ -1,33 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Adivina el Verbo</title>
   <link rel="stylesheet" type="text/css" href="./styles.css">
 </head>
+
 <body>
-  <container >
+  <container>
 
-  <h1>Escribe el significado</h1>
-  <p id="question"></p>
-  <input type="text" id="answer" placeholder="Respuesta">
-  <button onclick="checkAnswer()">Comprobar</button>
-  <p id="result"></p>
+    <h1>Escribe el significado</h1>
+    <p id="question"></p>
+    <input type="text" id="answer" placeholder="Respuesta">
+    <button onclick="checkAnswer()">Comprobar</button>
+    <p id="result"></p>
 
-  <!--<p id="prueba">otra prueba</p>-->
-  <p id="correcta"></p>
+    <!--<p id="prueba">otra prueba</p>-->
+    <p id="correcta"></p>
+    <div class="emoji">
+    <p>&#128512;: <span id="aciertos">0</span></p>
 
+    <p>&#x1F622;: <span id="error">0</span></p>
+  </div>
 
+    </section>
 
- 
+    
 
-  <h2>By Carivantelva</h2> 
-  
-</container>
+      <h2>By Carivantelva</h2>
 
-<script src="./vocabulario.js"></script>
+  </container>
+
+  <script src="./vocabulario.js"></script>
   <script src="./app.js"></script>
 </body>
+
 </html>

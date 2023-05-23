@@ -26,7 +26,7 @@ h1 {
 }
 
 h2 {
-  color: indigo;
+  color:rgb(46, 24, 240);
   font-size: small;
 
 }
@@ -82,6 +82,12 @@ button {
 
 }
 
+.emoji{
+  display: flex;
+  justify-content: space-between
+  
+
+}
 
 @media (max-width: 601px) {
 

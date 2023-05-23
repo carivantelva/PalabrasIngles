@@ -10,6 +10,12 @@
   var correctaElement = document.getElementById("correcta");
   // Verbo actual
   var currentVerb;
+
+  var aciertos = 0;
+  var error = 0;
+  
+
+  console.log(error);
   
   // Función para iniciar el juego
   function startGame() {
@@ -29,23 +35,31 @@
     var correctAnswer = currentVerb.spanish.toLowerCase();
     console.log(userAnswer);
 
-    let contador = 0;
-    console.log(contador);
 
-    
+       
     
   
     if (userAnswer === correctAnswer) {
       resultElement.textContent = "¡Correcto!";
       //pruebaElement.textContent = "pruebita";
+      aciertos++; // aqui incremento el contador de aciertos
+
+      document.getElementById("aciertos").textContent = aciertos; 
+
+      
+      
       
     } else {
       resultElement.textContent = "Incorrecto. La respuesta correcta es:"  ;
       correctaElement.textContent =  correctAnswer;
-      contador++;
-      console.log(contador);
+      
+      error++; //aqui incrementa el contador de errores
+      document.getElementById("error").textContent = error; 
+
+          
 
     }
+
 
 
   
