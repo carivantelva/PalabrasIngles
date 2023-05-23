@@ -25,6 +25,8 @@
   
     // Actualiza la pregunta
     questionElement.textContent =  currentVerb.english ;
+
+    
   }
   
 
@@ -35,7 +37,9 @@
     var correctAnswer = currentVerb.spanish.toLowerCase();
     console.log(userAnswer);
 
-
+    // coloca el cursor en el campo de respuesta despues del primer comprobar
+    answer.focus(); 
+    
        
     
   
