@@ -43,7 +43,7 @@
        
     
   
-    if (userAnswer === correctAnswer) {
+    if (userAnswer.trim() === correctAnswer.trim()) {
       resultElement.textContent = "¡Correcto!";
       //pruebaElement.textContent = "pruebita";
       aciertos++; // aqui incremento el contador de aciertos
