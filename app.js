@@ -13,9 +13,13 @@
 
   var aciertos = 0;
   var error = 0;
+
+  var usedVerbs = [];
+
+
   
 
-  console.log(error);
+  console.log(usedVerbs);
   
   // Función para iniciar el juego
   function startGame() {
@@ -80,4 +84,32 @@
   
   // Inicia el juego al cargar la página
   startGame();
+
+
+
+  function startGame() {
+    var randomIndex;
+  
+    // Verifica si todos los verbos ya han sido utilizados
+    if (usedVerbs.length === verbs.length) {
+      // Reinicia la lista de verbos utilizados
+      usedVerbs = [];
+    }
+  
+    // Obtén un verbo aleatorio que no haya sido utilizado
+    do {
+      randomIndex = Math.floor(Math.random() * verbs.length);
+    } while (usedVerbs.includes(randomIndex));
+  
+    // Almacena el índice del verbo actual
+    currentVerbIndex = randomIndex;
+    // Obtiene el verbo actual
+    currentVerb = verbs[currentVerbIndex];
+  
+    // Actualiza la pregunta
+    questionElement.textContent = currentVerb.english;
+  
+    // Agrega el índice del verbo a la lista de verbos utilizados
+    usedVerbs.push(currentVerbIndex);
+  }
   
