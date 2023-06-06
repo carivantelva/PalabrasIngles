@@ -38,8 +38,9 @@
   // Función para comprobar la respuesta
   function checkAnswer() {
     var userAnswer = answerElement.value.toLowerCase();
-    var correctAnswer = currentVerb.spanish.toLowerCase();
-    console.log(userAnswer);
+    var correctAnswers = currentVerb.meanings.map(function(meaning) {
+      return meaning.toLowerCase();
+    });
 
     // coloca el cursor en el campo de respuesta despues del primer comprobar
     answer.focus(); 
@@ -47,27 +48,15 @@
        
     
   
-    if (userAnswer.trim() === correctAnswer.trim()) {
-      resultElement.textContent = "¡Correcto!";
-      //pruebaElement.textContent = "pruebita";
-      aciertos++; // aqui incremento el contador de aciertos
-
-      document.getElementById("aciertos").textContent = aciertos; 
-
-      
-      
-      
+    if (correctAnswers.includes(userAnswer.trim())) {
+      resultElement.textContent = "¡Correcto! : " + correctAnswers.join(" , ");
+      aciertos++; // aquí incremento el contador de aciertos
+      document.getElementById("aciertos").textContent = aciertos;
     } else {
-      resultElement.textContent = "Incorrecto. La respuesta correcta es:"  ;
-      correctaElement.textContent =  correctAnswer;
-      
-      error++; //aqui incrementa el contador de errores
-      document.getElementById("error").textContent = error; 
-
-          
-
+      resultElement.textContent = "Incorrecto. La respuesta es: " + correctAnswers.join(" , ");
+      error++; // aquí incrementa el contador de errores
+      document.getElementById("error").textContent = error;
     }
-
 
 
   
@@ -79,7 +68,7 @@
       correctaElement.textContent = " ";
 
       startGame();
-    }, 3000);
+    }, 4000);
   }
   
   // Inicia el juego al cargar la página
@@ -90,13 +79,13 @@
   function startGame() {
     var randomIndex;
   
-    // Verifica si todos los verbos ya han sido utilizados
+    // Verifica si todas las palabras ya han sido utilizadas
     if (usedVerbs.length === verbs.length) {
       // Reinicia la lista de verbos utilizados
       usedVerbs = [];
     }
   
-    // Obtén un verbo aleatorio que no haya sido utilizado
+    // Obtén una palabra que no haya sido utilizada
     do {
       randomIndex = Math.floor(Math.random() * verbs.length);
     } while (usedVerbs.includes(randomIndex));
