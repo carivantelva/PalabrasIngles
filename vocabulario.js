@@ -337,4 +337,30 @@ var verbs = [
   { english: "Its", spanish: "el de este", meanings: ["el de este","la de este","los de este","las de este"] },
 
 
+//Verbs, group eigh 8  =  { english: "", spanish: "", meanings: ["","",""] },
+
+{ english: "Ache", spanish: "dolor", meanings: ["dolor","doler"] },
+{ english: "Attach", spanish: "pegar", meanings: ["pegar","adherir"] },
+{ english: "Clean", spanish: "limpiar", meanings: ["limpiar","limpio"] },
+{ english: "Consider", spanish: "considerar", meanings: ["considerar","pensar"] },
+{ english: "Close", spanish: "cerrar", meanings: ["cerrar"] },
+{ english: "Crack", spanish: "crujir", meanings: ["crujir","agrietarse","crujido","estallido"] },
+{ english: "Cramp", spanish: "dar calambre", meanings: ["dar calambre","calambre"] },
+{ english: "Declare", spanish: "declarar", meanings: ["declarar"] },
+{ english: "Delete", spanish: "suprimir", meanings: ["suprimir","eliminar","borrar", "(en el computador)"] },
+{ english: "Desire", spanish: "desear", meanings: ["desear","deseo"] },
+{ english: "End", spanish: "Terminar", meanings: ["terminar","fin"] },
+{ english: "Get nervous", spanish: "ponerse nervioso", meanings: ["ponerse nervioso"] },
+{ english: "Get left behind", spanish: "Quedarse atras", meanings: ["quedarse atras"] },
+{ english: "Grab", spanish: "agarrar", meanings: ["agarrar"] },
+{ english: "Invest", spanish: "invertir", meanings: ["invertir"] },
+{ english: "Knell", spanish: "arrodillarse", meanings: ["arrodillarse","hincarse"] },
+{ english: "Loathe", spanish: "detestar", meanings: ["detestar"] },
+{ english: "Lock", spanish: "Echar llave", meanings: ["Echar llave","cerrar","cerradura","candado"] },
+{ english: "Unlock", spanish: "Abrir la cerradura", meanings: ["abrir la cerradura","quitar llave"] },
+{ english: "Long", spanish: "largo", meanings: ["largo"] },
+{ english: "Long (for, to)", spanish: "", meanings: ["anhelar","desear"] },
+{ english: "Open", spanish: "abrir", meanings: ["abrir"] },
+
+
 ]
