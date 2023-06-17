@@ -124,9 +124,9 @@ var verbs = [
   { english: "Remember", spanish: "Recordar" , meanings: ["recordar","acordarse de","tener presente"]},
 
   //Vocabulario 1
-  { english: "Dad", spanish: "Papa", meanings: ["papá","(forma hablada)"] },
-  { english: "Daddy", spanish: "Papa" , meanings: ["papá","(forma hablada)"]},
-  { english: "Mum", spanish: "Mama" , meanings: ["mamá","(forma hablada)"]},
+  { english: "Dad", spanish: "Papa", meanings: ["papa","(forma hablada)"] },
+  { english: "Daddy", spanish: "Papa" , meanings: ["papa","(forma hablada)"]},
+  { english: "Mum", spanish: "Mama" , meanings: ["mama","(forma hablada)"]},
   { english: "Parents", spanish: "Padres", meanings: ["padres"] },
   { english: "Family", spanish: "Familia" , meanings: ["familia"]},
   { english: "Wife", spanish: "Esposa" , meanings: ["esposa"]},
@@ -151,7 +151,7 @@ var verbs = [
   { english: "Maid", spanish: "Empleada", meanings: ["empleada","(del servicio)"] },
   { english: "Brother", spanish: "Hermano" , meanings: ["hermano"]},
   { english: "Sister", spanish: "Hermana" , meanings: ["hermana"]},
-  { english: "Brother in law", spanish: "Cuñado" , meanings: ["cuñado"]},
+ { english: "Brother in law", spanish: "Cuñado" , meanings: ["cuñado"]},
   { english: "Sister in law", spanish: "Cuñada", meanings: ["cuñada"] },
   { english: "Father", spanish: "Papa" , meanings: ["papá"]},
   { english: "Mother", spanish: "Mama" , meanings: ["mamá"]},

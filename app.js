@@ -38,9 +38,16 @@
   // Función para comprobar la respuesta
   function checkAnswer() {
     var userAnswer = answerElement.value.toLowerCase();
+
+    //aqui quito las tildes de las vocales solamente, asi no me quita la letra ñ ctv
+    userAnswer = userAnswer.replace(/[áéíóú]/g, function(match) {
+      return match.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+    });
+  
     var correctAnswers = currentVerb.meanings.map(function(meaning) {
       return meaning.toLowerCase();
     });
+   
 
     // coloca el cursor en el campo de respuesta despues del primer comprobar
     answer.focus(); 
