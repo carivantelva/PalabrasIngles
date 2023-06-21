@@ -363,4 +363,57 @@ var verbs = [
 { english: "Open", spanish: "abrir", meanings: ["abrir"] },
 
 
+//
+
+{ english: "Allow", spanish: "permitir", meanings: ["permitir"] },
+{ english: "Begin", spanish: "Empezar", meanings: ["Empezar","Comenzar"] },
+{ english: "Cry", spanish: "llorar", meanings: ["llorar"] },
+{ english: "Check", spanish: "Revisar", meanings: ["revisar","cheque","verificar","cuenta","(en restaurantes)"] },
+{ english: "Disturb", spanish: "perturbar", meanings: ["perturbar","interrumpir"] },
+{ english: "Die", spanish: "morir", meanings: ["morir"] },
+{ english: "Live", spanish: "vivir", meanings: ["vivir"] },
+{ english: "Let", spanish: "permitir", meanings: ["permitir","dejar"] },
+{ english: "Escape", spanish: "escapar", meanings: ["escapar"] },
+{ english: "Fail", spanish: "fracasar", meanings: ["fracasar","fallar"] },
+{ english: "Wipe", spanish: "limpiar", meanings: ["limpiar","pasarle un trapo a","trapo","toallita"] },
+{ english: "Tie", spanish: "amarrar", meanings: ["amarrar","atar","ataduras","lazos","corbata","empatar"] },
+{ english: "Marry", spanish: "casarse con", meanings: ["Casarse con"] },
+{ english: "Pay", spanish: "pagar", meanings: ["pagar"] },
+{ english: "Pay for", spanish: "pagar por", meanings: ["pagar por"] },
+{ english: "Succeed", spanish: "tener exito", meanings: ["tener exito"] },
+{ english: "Fall", spanish: "caer", meanings: ["caer","catarata","otoño"] },
+{ english: "Fall down", spanish: "caerse", meanings: ["caerse"] },
+{ english: "Fall in love", spanish: "enamorarse", meanings: ["enamorarse"] },
+{ english: "Fall in love with", spanish: "enamorarse de", meanings: ["enamorarse de"] },
+{ english: "Turn", spanish: "girar", meanings: ["girar","voltear","(hacia)","turno", "giro"] },
+
+//verbos grupo 10
+
+{ english: "Argue", spanish: "discutir", meanings: ["discutir"] },
+{ english: "Attend", spanish: "Asistir", meanings: ["asistir","(estar presente en","cuidar de"] },
+{ english: "Arrest", spanish: "arrestar", meanings: ["arrestar"] },
+{ english: "Warm up", spanish: "calentar", meanings: ["calentar","tibio"] },
+{ english: "Take away", spanish: "quitar", meanings: ["quitar"] },
+{ english: "Take off", spanish: "quitarse", meanings: ["quitarse","despegar","(un avion)"] },
+{ english: "Annoy", spanish: "enojar", meanings: ["enojar"] },
+{ english: "Bring", spanish: "traer", meanings: ["traer"] },
+{ english: "Cheat", spanish: "hacer trampa", meanings: ["hacer trampa","trampa"] },
+{ english: "Take", spanish: "llevar", meanings: ["llevar"] },
+{ english: "Flush (the toilet)", spanish: "descargar", meanings: ["descargar","(el inodoro)"] },
+{ english: "Hate", spanish: "odiar", meanings: ["odiar"] },
+{ english: "Love", spanish: "Amar", meanings: ["amar"] },
+{ english: "Respect", spanish: "Respetar", meanings: ["respetar"] },
+{ english: "Review", spanish: "repasar", meanings: ["repasar","repaso"] },
+{ english: "Train", spanish: "entrenar", meanings: ["entrenar","(se)","tren"] },
+{ english: "Quit", spanish: "retirarse", meanings: ["retirarse","abandonar","dejar de hacer algo"] },
+{ english: "Stumble", spanish: "tropezar", meanings: ["tropezar","traspie"] },
+{ english: "Light", spanish: "iluminar", meanings: ["iluminar","encender","luz","liviano"] },
+{ english: "Value", spanish: "cotizar", meanings: ["cotizar","valor"] },
+{ english: "Assess", spanish: "evaluar", meanings: ["evaluar","valorar"] },
+{ english: "Trouble", spanish: "Preocupar", meanings: ["preocupar","molestar","molestia","dificultad"] },
+
+
+//{ english: "", spanish: "", meanings: ["","",""] },
+
+
 ]
