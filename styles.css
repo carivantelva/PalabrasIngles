@@ -12,21 +12,51 @@ body {
 
 }
 
+
+
 container {
-  
+
   display: grid;
   justify-content: center;
-  
+
   border-color: #140101;
   background-color: rgba(1, 56, 56, 0.288);
 }
 
+
+
+#grupos {
+  display: none;
+
+}
+
+#verbos {
+  display: grid;
+  display: none;
+
+}
+
+#vocabulario {
+  display: grid;
+  display: none;
+}
+
+#adver {
+    display: none;
+}
+
+
+
+#juego {
+  display: none;
+}
+
 h1 {
-  color: rgb(239, 239, 247)
+  color: rgb(239, 239, 247);
 }
 
 h2 {
-  color:rgb(46, 24, 240);
+  color: rgb(46, 24, 240);
   font-size: small;
 
 }
@@ -39,12 +69,12 @@ p {
 }
 
 p#result {
-  color:rgb(243, 239, 6);
+  color: rgb(243, 239, 6);
   font-size: 20px;
 
 }
 
-p#correcta{
+p#correcta {
   color: rgb(33, 10, 241);
   margin-top: 1px;
   margin-bottom: 1px;
@@ -74,34 +104,60 @@ button {
   margin-top: 5px;
   padding: 20px 5px;
   border-radius: 10%;
-  width: 90px;
+  width: 100px;
+  height: 100px;
   justify-self: center;
   border: solid;
   border-color: rgb(123, 95, 160);
-  font-weight: bolder;
+  font-weight: bolder;  
+  margin-bottom: 10px;
+
 
 }
 
-.emoji{
+.emoji {
   display: flex;
-  justify-content: space-between
-  
+  justify-content: space-between;
+}
+
+#round-buttons {
+  text-align: center;
+  margin-top: 10px;
+  border-radius: 50%;
+  background-color: darkcyan;
+}
+
+#roundBtn {
+  display: inline-block;
+  text-align: center;
+  width: 60px;
+  height: 40px;
+  border-radius: 30%;
+  background-color: cadetblue;
+  margin: 5px;
 
 }
 
 @media (max-width: 601px) {
 
-  container  {
 
-    width: 80%;
-    height: 60%;
-    margin: auto; 
-    
+
+  #listado {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 10px;
   }
 
-  h1{
-    font-size: medium;
-    margin: 1%;  
+  container {
+    width: 80%;
+    margin: auto;
+
+  }
+
+  h1 {
+    font-size: large;
+    margin: 1%;
     padding: 0%;
   }
 
@@ -112,27 +168,28 @@ button {
     font-weight: bold;
   }
 
-  h2{
+  h2 {
     color: aliceblue;
   }
-  p{
-    font-size: 30px;  
-    margin: 0%;  
+
+  p {
+    font-size: 30px;
+    margin: 0%;
     padding: 0%;
   }
 
   p#result {
     color: #edf3ed;
     font-size: 90%;
-  
+
   }
 
-  p#correcta{
+  p#correcta {
     color: rgb(33, 10, 241);
     margin-top: 1px;
     margin-bottom: 1px;
-    font-size:x-large;
+    font-size: x-large;
   }
 
-  
+
 }

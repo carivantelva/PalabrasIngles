@@ -7,35 +7,115 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ingles a español</title>
   <link rel="stylesheet" type="text/css" href="./styles.css">
+  
 </head>
 
 <body>
+
   <container>
+    <!--con el id lo llamo de js para ocultar el boton, con el onclick llamo la funcion
+      con los parentisis inicio el juego en el grupo1 o en el grupo2 ..etc de la funcion de startGame-->
 
-    <h1>Escribe el significado</h1>
-    <p id="question"></p>
-    <input type="text" id="answer" placeholder="Respuesta">
-    <button onclick="checkAnswer()">Comprobar</button>
-    <p id="result"></p>
 
-    <!--<p id="prueba">otra prueba</p>-->
-    <p id="correcta"></p>
-    <div class="emoji">
-    <p>&#128512;: <span id="aciertos">0</span></p>
 
-    <p>&#x1F622;: <span id="error">0</span></p>
-  </div>
+    <div id="btngroup">
+      <!--con el id lo llamo de js para ocultar el boton, con el onclick llamo la funcion
+          con los parentisis inicio el juego en el grupo1 o en el grupo2 ..etc de la funcion de startGame-->
+        <h1 style="color: blue;">ENGLISH ACADEMY</h1>
+          <h1>Select the Group</h1>
 
-    </section>
 
+      <button id="btn10" onclick="mostrarverb();">Verbs</button>
+
+      <button id="btn11" onclick="mostrarVocab();">vocabulary</button>
+
+      <button id="btn12" onclick="mostrarAdver();">adver, Pronom</button>
+      
+      
+      
+    </div>
+
+    <div id="juego">
+      <h1>Escribe el significado</h1>
+      <p id="question"></p>
+      <input type="text" id="answer" placeholder="Respuesta">
+      <button onclick="checkAnswer()">Comprobar</button>
+      <p id="result"></p>
+      <div class="emoji">
+        <p>😀: <span id="aciertos">0</span></p>
+        <p>😢: <span id="error">0</span></p>      
+
+      </div>
+
+      <div id="round-buttons">
+        <button id="roundBtn" onclick="refreshPage()" style="color: azure;">Start</button>
+        
+        
+      </div>
+      
+    </div>
     
+
+
+    <!--con el id llamo el boton desde js para ocultar el boton, con el onclick llamo la funcion
+      con los ejemp:'mostrar' inicio el juego en el grupo1 o en el grupo2 ..etc de la funcion de 
+      startGame-->
+
+    <div id="verbos">
+      <!--Verbos-->
+      <button id="grupo1" onclick="jugarGrupo('group1')">verbs group 1 </button>
+      <button id="grupo3" onclick="jugarGrupo('group3')">verbs group 2 </button>
+      <button id="grupo4" onclick="jugarGrupo('group4')">Verbs group 3</button>
+      <button id="grupo6" onclick="jugarGrupo('group6')">verbs group 4 </button>
+      <button id="grupo8" onclick="jugarGrupo('group8')">Verbs group 5</button>
+      <button id="grupo10" onclick="jugarGrupo('group10')">Verbs group 6</button>
+      <button id="grupo11" onclick="jugarGrupo('group11')">Verbs group 7</button>
+      <button id="grupo16" onclick="jugarGrupo('group16')">Verbs group 8</button>
+      <button id="grupo17" onclick="jugarGrupo('group17')">Verbs group 9</button>
+      <button id="grupo19" onclick="jugarGrupo('group19')">Verbs group 10</button>
+
+      <h2>By Carivantelva </h2>
+      
+
+    </div>
+
+
+    <div div id="vocabulario">
+      <!--vocabulario-->
+      <button id="grupo7" onclick="jugarGrupo('group7')">Vocabulary 1 </button>
+      <button id="grupo9" onclick="jugarGrupo('group9')">Vocabulary 2 </button>
+      <button id="grupo12" onclick="jugarGrupo('group12')">Vocabulary 3 </button>
+      <button id="grupo22" onclick="jugarGrupo('group22')">Vocabulary 4 </button>
+      <button id="grupo24" onclick="jugarGrupo('group24')">Vocabulary 5 </button>
+      <button id="grupo26" onclick="jugarGrupo('group26')">Vocabulary 6 </button>
+      
+
+      <h2>By Carivantelva</h2>
+    </div>
+
+    <div id="adver">
+      <button id="grupo18" onclick="jugarGrupo('group18')">Frequency adverbs associate  to the present tense </button>
+      <button id="grupo2" onclick="jugarGrupo('group2')">Prepositions </button>
+      <button id="grupo5" onclick="jugarGrupo('group5')">Time adverbs </button>
+      <button id="grupo13" onclick="jugarGrupo('group13')">7 verbs 3 case </button>
+      <button id="grupo14" onclick="jugarGrupo('group14')">Pronouns Possesive </button>
+      <button id="grupo15" onclick="jugarGrupo('group15')">Reflexive pronouns </button>
+
+      <button id="grupo23" onclick="jugarGrupo('group23')">Information Questions </button>
+
+      
 
       <h2>By Carivantelva</h2>
 
+    </div>
   </container>
+  
 
-  <script src="./vocabulario.js"></script>
-  <script src="./app.js"></script>
+
 </body>
+
+<script src="./vocabulario.js"></script>
+<script src="./appgrupos.js"></script>
+<script src="./startgame.js"></script>
 
 </html>
